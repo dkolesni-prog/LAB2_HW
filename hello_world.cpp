@@ -1,7 +1,11 @@
 #include "iostream"
-using namespace std;
+#include "string"
 int main(){
-cout << "Hello, world!" << endl;
+std::cout << "Enter your name:" << std::endl;
+std::string name = {};
+std::cin >> name;
+std::cout << "Hello, " << name << std::endl;
 return 0;
 }
 
+//some comment
